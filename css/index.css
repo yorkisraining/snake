@@ -1,0 +1,54 @@
+#wrap {
+	position: relative;
+	height: 600px;
+	width: 1200px;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	top: 20px;
+}
+
+#canvas {
+	position: absolute;
+	height: 600px;
+	width: 1000px;
+	left: 0;
+	z-index: 999;
+}
+
+.bg {
+	position: absolute;
+	background-color: black;
+	height: 600px;
+	width: 1000px;
+	left: 0;
+	z-index: 0;
+}
+
+#btn, #score, .note {
+	position: absolute;
+	color: black;
+	font-weight: bolder;
+	font-family: "微软雅黑";
+}
+
+#btn {
+	background-color: white;
+	right: 50px;
+	top: 50px;
+	width: 100px;
+	font-size: 24px;
+	cursor: pointer;
+	border: none;
+}
+
+#score {
+	right: 60px;
+	top: 150px;
+	font-size: 22px;
+}
+
+.note {
+	right: 33px;
+	top: 300px;
+	text-align: center;
+}
